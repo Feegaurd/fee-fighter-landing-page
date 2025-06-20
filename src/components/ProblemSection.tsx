@@ -1,26 +1,27 @@
+
 import { CreditCard, DollarSign } from "lucide-react";
 
 const ProblemSection = () => {
   return (
     <section className="py-20 bg-gradient-to-b from-red-50 to-gray-100 relative">
       {/* Background payment processor icons for entire section */}
-      <div className="absolute inset-0 opacity-5">
-        <div className="absolute top-20 left-20 bg-blue-600 text-white px-4 py-2 rounded text-lg font-bold">
+      <div className="absolute inset-0 opacity-10">
+        <div className="absolute top-20 left-20 bg-blue-600 text-white px-6 py-3 rounded text-2xl font-bold">
           VISA
         </div>
-        <div className="absolute top-32 right-32 bg-red-600 text-white px-4 py-2 rounded text-lg font-bold">
+        <div className="absolute top-32 right-32 bg-red-600 text-white px-6 py-3 rounded text-2xl font-bold">
           MASTERCARD
         </div>
-        <div className="absolute bottom-40 left-1/4 bg-gray-800 text-white px-4 py-2 rounded text-lg font-bold">
+        <div className="absolute bottom-40 left-1/4 bg-gray-800 text-white px-6 py-3 rounded text-2xl font-bold">
           SQUARE
         </div>
-        <div className="absolute bottom-52 right-1/4 bg-green-600 text-white px-4 py-2 rounded text-lg font-bold">
+        <div className="absolute bottom-52 right-1/4 bg-green-600 text-white px-6 py-3 rounded text-2xl font-bold">
           TOAST
         </div>
-        <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-purple-600 text-white px-4 py-2 rounded text-lg font-bold">
+        <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-purple-600 text-white px-6 py-3 rounded text-2xl font-bold">
           STRIPE
         </div>
-        <div className="absolute top-1/3 left-1/3 bg-orange-600 text-white px-4 py-2 rounded text-lg font-bold">
+        <div className="absolute top-1/3 left-1/3 bg-orange-600 text-white px-6 py-3 rounded text-2xl font-bold">
           PAYPAL
         </div>
       </div>
