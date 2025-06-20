@@ -42,20 +42,29 @@ const ProblemSection = () => {
           </div>
 
           <div className="relative">
-            <div className="bg-white rounded-2xl p-8 shadow-2xl">
-              <h4 className="text-2xl font-bold text-center mb-6 text-gray-800">Traditional Fee Structure</h4>
-              
-              {/* Visa/Mastercard logos representation */}
-              <div className="flex justify-center space-x-8 mb-8">
-                <div className="bg-blue-600 text-white px-6 py-3 rounded-lg font-bold text-lg">
+            <div className="bg-white rounded-2xl p-8 shadow-2xl relative overflow-hidden">
+              {/* Background payment processor icons */}
+              <div className="absolute inset-0 opacity-5">
+                <div className="absolute top-4 left-4 bg-blue-600 text-white px-3 py-1 rounded text-sm font-bold">
                   VISA
                 </div>
-                <div className="bg-red-600 text-white px-6 py-3 rounded-lg font-bold text-lg">
+                <div className="absolute top-4 right-4 bg-red-600 text-white px-3 py-1 rounded text-sm font-bold">
                   MASTERCARD
+                </div>
+                <div className="absolute bottom-16 left-4 bg-gray-800 text-white px-3 py-1 rounded text-sm font-bold">
+                  SQUARE
+                </div>
+                <div className="absolute bottom-16 right-4 bg-green-600 text-white px-3 py-1 rounded text-sm font-bold">
+                  TOAST
+                </div>
+                <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-purple-600 text-white px-3 py-1 rounded text-sm font-bold">
+                  STRIPE
                 </div>
               </div>
 
-              <div className="space-y-4">
+              <h4 className="text-2xl font-bold text-center mb-6 text-gray-800 relative z-10">Traditional Fee Structure</h4>
+
+              <div className="space-y-4 relative z-10">
                 <div className="flex justify-between items-center p-4 bg-red-50 rounded-lg">
                   <span className="font-medium">Processing Fee</span>
                   <span className="text-red-600 font-bold">2.9%</span>
