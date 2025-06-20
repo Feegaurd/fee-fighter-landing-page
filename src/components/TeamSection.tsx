@@ -1,4 +1,6 @@
 
+import { Button } from "@/components/ui/button";
+
 const TeamSection = () => {
   const teamMembers = [
     {
@@ -64,14 +66,14 @@ const TeamSection = () => {
         <div className="mt-16 text-center">
           <div className="bg-gradient-to-r from-blue-500 to-green-500 rounded-2xl p-8 text-white">
             <h3 className="text-2xl font-bold mb-4">
-              Ready to Transform Payments?
+              Interested? Join our waitlist
             </h3>
             <p className="text-lg opacity-90 mb-6">
-              Join thousands of customers and businesses already saving with test name
+              Be among the first to experience the future of payments
             </p>
-            <button className="bg-white text-blue-600 px-8 py-3 rounded-lg font-bold hover:bg-gray-100 transition-colors">
-              Get Started Today
-            </button>
+            <Button className="bg-white text-blue-600 hover:bg-gray-100 px-8 py-3 font-bold">
+              Join Waitlist
+            </Button>
           </div>
         </div>
       </div>

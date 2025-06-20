@@ -1,5 +1,6 @@
 
 import { DollarSign, CreditCard } from "lucide-react";
+import { Button } from "@/components/ui/button";
 
 const Hero = () => {
   return (
@@ -28,6 +29,13 @@ const Hero = () => {
           Revolutionizing payments by eliminating the credit card fee monopoly. 
           Save money on every transaction while helping small businesses thrive.
         </p>
+        
+        <div className="mt-8 animate-fade-in delay-400">
+          <Button size="lg" className="bg-gradient-to-r from-blue-500 to-green-500 hover:from-blue-600 hover:to-green-600 text-white font-bold px-8 py-4 text-lg">
+            Interested? Join our waitlist
+          </Button>
+        </div>
+        
         <div className="mt-12 flex justify-center space-x-8 animate-fade-in delay-500">
           <div className="bg-white/80 backdrop-blur-sm rounded-2xl p-6 shadow-lg">
             <DollarSign size={48} className="text-green-500 mx-auto mb-2" />
