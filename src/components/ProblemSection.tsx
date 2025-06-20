@@ -15,10 +15,10 @@ const ProblemSection = () => {
         <div className="absolute bottom-40 left-1/4 bg-gray-800 text-white px-6 py-3 rounded text-2xl font-bold">
           SQUARE
         </div>
-        <div className="absolute bottom-52 right-1/4 bg-green-600 text-white px-6 py-3 rounded text-2xl font-bold">
+        <div className="absolute bottom-52 left-1/4 bg-green-600 text-white px-6 py-3 rounded text-2xl font-bold">
           TOAST
         </div>
-        <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-purple-600 text-white px-6 py-3 rounded text-2xl font-bold">
+        <div className="absolute top-1/2 right-0 transform -translate-x-1/2 -translate-y-1/2 bg-purple-600 text-white px-6 py-3 rounded text-2xl font-bold">
           STRIPE
         </div>
         <div className="absolute top-1/3 left-1/3 bg-orange-600 text-white px-6 py-3 rounded text-2xl font-bold">

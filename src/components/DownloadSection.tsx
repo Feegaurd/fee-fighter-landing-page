@@ -8,10 +8,10 @@ const DownloadSection = () => {
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="text-center lg:text-left">
             <h2 className="text-4xl md:text-5xl font-bold text-gray-800 mb-6">
-              Simple. Fast. Secure.
+			Online and in person payments. Easy for Businesses and Customers.
             </h2>
             <p className="text-xl text-gray-600 mb-8 leading-relaxed">
-              Getting started is easy. Download our app and start saving on every transaction.
+			Customers can pay online or in-person by scanning the qr code at checkout. Businesses can easily connect FeeGuard to services like Shopify and Quickbooks.
             </p>
             
             <div className="bg-white rounded-xl p-8 shadow-lg inline-block">
@@ -45,7 +45,7 @@ const DownloadSection = () => {
               <div className="bg-gray-800 rounded-3xl p-6 shadow-2xl">
                 <div className="bg-white rounded-2xl p-8 h-96 w-56 flex flex-col items-center justify-center">
                   <Phone size={80} className="text-blue-500 mb-6" />
-                  <h4 className="text-xl font-bold text-gray-800 mb-4">test name App</h4>
+                  <h4 className="text-xl font-bold text-gray-800 mb-4">FeeGuard App</h4>
                   
                   {/* QR Code placeholder */}
                   <div className="w-32 h-32 bg-gray-200 rounded-lg flex items-center justify-center mb-4">

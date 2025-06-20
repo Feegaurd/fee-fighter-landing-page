@@ -5,24 +5,24 @@ const TeamSection = () => {
   const teamMembers = [
     {
       name: "Joshua Vigel",
-      title: "CS and Business Honors at UT Austin",
-      role: "Co-Founder & CTO"
+      title: "CS & Business at UT Austin",
+      role: "Co-Founder"
     },
-    {
+   {
+      name: "Inesh Sharma",
+      title: "Engineering at Texas A&M University",
+      role: "Co-Founder"
+    },
+	{
       name: "Carson Sheffield",
       title: "Business at UT Austin",
-      role: "Co-Founder & COO"
+      role: "Co-Founder"
     },
     {
       name: "Mitul Gouni",
-      title: "Business Honors at UT Austin",
-      role: "Co-Founder & CFO"
+      title: "Business at UT Austin",
+      role: "Co-Founder"
     },
-    {
-      name: "Inesh Sharma",
-      title: "Engineering Honors at A&M University",
-      role: "Co-Founder & Lead Engineer"
-    }
   ];
 
   return (
@@ -69,11 +69,13 @@ const TeamSection = () => {
               Interested? Join our waitlist
             </h3>
             <p className="text-lg opacity-90 mb-6">
-              Be among the first to experience the future of payments
+			  Learn more about what we offer for small-businesses
             </p>
+			<a href="https://forms.gle/9MC3Hh2EhScymETk9">
             <Button className="bg-white text-blue-600 hover:bg-gray-100 px-8 py-3 font-bold">
               Join Waitlist
             </Button>
+			</a>
           </div>
         </div>
       </div>

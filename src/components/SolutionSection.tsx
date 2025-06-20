@@ -7,10 +7,10 @@ const SolutionSection = () => {
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-gray-800 mb-6">
-            test
+		  	Introducing FeeGuard
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            A revolutionary payment solution that benefits both customers and businesses
+		  	FeeGuard is a payment method that allows customers to buy from businesses directly through ACH. By doing so, we allow businesses to avoid fees
           </p>
         </div>
 
@@ -24,7 +24,7 @@ const SolutionSection = () => {
                 </div>
                 <div>
                   <h3 className="text-xl font-bold text-gray-800 mb-2">Customer Savings</h3>
-                  <p className="text-gray-600 mb-4">Save 2% on every purchase with our innovative payment system</p>
+                  <p className="text-gray-600 mb-4">Customers save 2% when they checkout using FeeGuard</p>
                   <div className="bg-green-100 rounded-lg p-4">
                     <span className="text-2xl font-bold text-green-700">2% OFF</span>
                     <span className="text-sm text-green-600 ml-2">Every Transaction</span>

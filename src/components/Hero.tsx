@@ -23,7 +23,7 @@ const Hero = () => {
       
       <div className="container mx-auto px-6 text-center z-10">
         <h1 className="text-6xl md:text-7xl font-bold text-gray-800 mb-6 animate-fade-in">
-          test name
+			FeeGuard
         </h1>
         <p className="text-xl md:text-2xl text-gray-600 max-w-3xl mx-auto leading-relaxed animate-fade-in delay-300">
           Revolutionizing payments by eliminating the credit card fee monopoly. 
@@ -31,9 +31,11 @@ const Hero = () => {
         </p>
         
         <div className="mt-8 animate-fade-in delay-400">
+		<a href="https://forms.gle/9MC3Hh2EhScymETk9">
           <Button size="lg" className="bg-gradient-to-r from-blue-500 to-green-500 hover:from-blue-600 hover:to-green-600 text-white font-bold px-8 py-4 text-lg">
-            Interested? Join our waitlist
+		Want to learn more? Join our waitlist
           </Button>
+		</a>
         </div>
         
         <div className="mt-12 flex justify-center space-x-8 animate-fade-in delay-500">
